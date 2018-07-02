@@ -93,7 +93,7 @@ $(function() {
         });
 
         it('there is atleast one .entry element within the .feed container', function(done) {
-            expect($('.entry').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
             done();
         });
 
